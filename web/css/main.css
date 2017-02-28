@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 10pt;
+    width: 100%;
+    height: 100%;
+    background-color: #2a2a2a;
+    min-width: 430px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+.layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    min-height: 500px;
+}
+.mainForm{
+    border: 3px ridge #baae84;
+    background-color: rgba(10, 10, 10, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.filterblock{
+    width: 500px;
+    overflow: hidden;
+}
+.select{
+    padding: 2px;
+    color: #fff;
+    width: 236px;
+    height: 150px;
+    border: 1px solid #baae84;
+    background: linear-gradient(#1b1c16,#211e19,#282421);
+    border-radius: 2px;
+    outline: none;
+    margin: 6px 0;
+}
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+::-webkit-scrollbar {
+    width: 14px;
+    height: 13px;
+}
+::-webkit-scrollbar-thumb{
+    border-width:1px 1px 1px 2px;
+    border-color: #777;
+    background-color: #baae84;
+}
+
+.usersGrid {
+    border: 1px solid #baae84;
+    background: linear-gradient(#1b1c16,#211e19,#282421);
+    border-collapse: collapse;
+    width: 500px;
+}
+.usersGrid td{
+    border: 1px solid #baae84;
+    text-align: center;
+}
+.usersGrid th{
+    background: linear-gradient(#46493a,#595144,#564d47);
+}
+.updateGrid {
+    text-shadow: 1px 1px 1px #000;
+    color: #fff;
+    width: 91px;
+    height: 24px;
+    border: 1px solid #baae84;
+    background: linear-gradient(#1b1c16,#211e19,#282421);
+    border-radius: 2px;
+    outline: none;
+    margin: 9px 0;
+    line-height: 24px;
+    text-align: center;
+    cursor: default;
+}
+.updateGrid:hover {
+    background: linear-gradient(#46493a,#595144,#564d47);
+
+}
+.but {
+    height: 24px;
+}
+.but a{
+    color: #fff;
+    text-decoration: none;
+    cursor: default;
+}
